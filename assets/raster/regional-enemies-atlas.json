@@ -1,0 +1,16 @@
+{
+  "image": "regional-enemies.png",
+  "width": 1774,
+  "height": 887,
+  "note": "Visually verified approximate crop rectangles. Nightmare giant top-right mask removes an adjacent cathedral giant foot.",
+  "sprites": [
+    {"id":"church-attendant","rect":[0,0,410,450]},
+    {"id":"church-giant","rect":[410,0,500,445]},
+    {"id":"church-hound","rect":[910,0,460,455]},
+    {"id":"church-marksman","rect":[1370,0,404,450]},
+    {"id":"mensis-scholar","rect":[0,450,450,437]},
+    {"id":"nightmare-giant","rect":[450,420,440,467],"clearLocalRect":[350,0,90,25]},
+    {"id":"nightmare-spider","rect":[890,455,490,432]},
+    {"id":"mourning-priest","rect":[1380,450,394,437]}
+  ]
+}

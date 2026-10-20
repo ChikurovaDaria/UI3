@@ -1,0 +1,177 @@
+{
+  "image": "hunter.png",
+  "width": 1254,
+  "height": 1254,
+  "alpha": true,
+  "columns": 8,
+  "directions": [
+    "E",
+    "SE",
+    "S",
+    "SW",
+    "W",
+    "NW",
+    "N",
+    "NE"
+  ],
+  "rows": [
+    {
+      "y": 86,
+      "xBounds": [
+        [
+          35,
+          170
+        ],
+        [
+          189,
+          318
+        ],
+        [
+          347,
+          467
+        ],
+        [
+          486,
+          608
+        ],
+        [
+          627,
+          762
+        ],
+        [
+          766,
+          920
+        ],
+        [
+          944,
+          1084
+        ],
+        [
+          1103,
+          1245
+        ]
+      ],
+      "height": 257,
+      "name": "idle"
+    },
+    {
+      "y": 380,
+      "xBounds": [
+        [
+          27,
+          168
+        ],
+        [
+          185,
+          328
+        ],
+        [
+          348,
+          475
+        ],
+        [
+          484,
+          609
+        ],
+        [
+          632,
+          770
+        ],
+        [
+          776,
+          926
+        ],
+        [
+          946,
+          1082
+        ],
+        [
+          1097,
+          1243
+        ]
+      ],
+      "height": 241,
+      "name": "walk_left"
+    },
+    {
+      "y": 657,
+      "xBounds": [
+        [
+          22,
+          178
+        ],
+        [
+          182,
+          327
+        ],
+        [
+          343,
+          477
+        ],
+        [
+          486,
+          614
+        ],
+        [
+          628,
+          773
+        ],
+        [
+          776,
+          931
+        ],
+        [
+          943,
+          1083
+        ],
+        [
+          1098,
+          1245
+        ]
+      ],
+      "height": 241,
+      "name": "walk_right"
+    },
+    {
+      "y": 919,
+      "xBounds": [
+        [
+          0,
+          180
+        ],
+        [
+          180,
+          337
+        ],
+        [
+          337,
+          483
+        ],
+        [
+          483,
+          623
+        ],
+        [
+          623,
+          776
+        ],
+        [
+          776,
+          940
+        ],
+        [
+          940,
+          1090
+        ],
+        [
+          1090,
+          1253
+        ]
+      ],
+      "height": 277,
+      "name": "attack",
+      "note": "Attack weapons extend beyond column boundaries; prefer idle/walk sprites plus programmatic slash effects."
+    }
+  ],
+  "notes": "Original generated pixels preserved. Frame bounds measured from alpha. Source is not a regular uniform grid: use the row xBounds and y/height."
+}
